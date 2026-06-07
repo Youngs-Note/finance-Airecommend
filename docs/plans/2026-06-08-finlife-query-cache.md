@@ -33,7 +33,7 @@
 - [x] `ProductService`에 상품 유형별 TTL 메모리 캐시 추가
 - [x] 캐시 hit, TTL 만료, fallback 동작 테스트 추가
 - [x] 테스트 및 린트 실행
-- [ ] `develop` 푸시 및 Render 배포 확인
+- [x] `develop` 푸시 및 Render 배포 확인
 
 ## 영향받는 파일 또는 구성 요소
 
@@ -82,4 +82,14 @@ FINLIFE_CACHE_TTL_SECONDS=21600
 
 남은 작업:
 
-- `develop`에 푸시하고 Render 배포 후 `/api/products` 응답을 확인한다.
+- `develop`에 푸시하고 Render 배포 후 `/api/products` 응답을 확인했다.
+- 배포 확인 결과:
+  - `/api/health`: `data_mode=finlife`
+  - `/api/products` 첫 호출: 32개 상품, `source=finlife`, 샘플명 0개
+  - `/api/products` 두 번째 호출: 32개 상품, `source=finlife`, 샘플명 0개
+  - 첫 호출은 fallback 캐시 적재로 약 17초, 두 번째 호출은 약 0.14초로 확인했다.
+
+후속 작업:
+
+- Render에서 Finlife API 실시간 호출이 실패하는 원인은 별도 분석한다.
+- 운영 안정성을 더 높이려면 MySQL 또는 Redis 기반 공유 캐시를 검토한다.
