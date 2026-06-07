@@ -76,16 +76,16 @@ class ProductService:
                 current_product_type: client.fetch_products(current_product_type)
                 for current_product_type in product_types
             }
-            _finlife_products_cache.products_by_type = products_by_type
-            _finlife_products_cache.fetched_at = now
+            _store_products_by_type_in_cache(products_by_type, now)
             return _select_products_from_cache(product_type)
         except ExternalApiError:
             stale_products = _select_products_from_cache(product_type)
             if stale_products:
                 return stale_products
-            cached_products = load_finlife_cached_products(product_type)
+            cached_products = load_finlife_cached_products()
             if cached_products:
-                return cached_products
+                _store_products_in_cache(cached_products, now)
+                return _select_products_from_cache(product_type)
             raise
         finally:
             client.close()
@@ -103,3 +103,21 @@ def _select_products_from_cache(product_type: ProductType | None) -> list[Produc
         for products in _finlife_products_cache.products_by_type.values()
         for product in products
     ]
+
+
+def _store_products_by_type_in_cache(
+    products_by_type: dict[ProductType, list[Product]],
+    fetched_at: float,
+) -> None:
+    _finlife_products_cache.products_by_type = {
+        product_type: list(products) for product_type, products in products_by_type.items()
+    }
+    _finlife_products_cache.fetched_at = fetched_at
+
+
+def _store_products_in_cache(products: list[Product], fetched_at: float) -> None:
+    products_by_type = {
+        product_type: [product for product in products if product.product_type == product_type]
+        for product_type in ProductType
+    }
+    _store_products_by_type_in_cache(products_by_type, fetched_at)

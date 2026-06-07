@@ -29,7 +29,11 @@ def _cached_product(
 
 
 def test_finlife_mode_falls_back_to_cached_products(monkeypatch) -> None:
+    fetch_count = 0
+
     def raise_external_api_error(_client, _product_type):
+        nonlocal fetch_count
+        fetch_count += 1
         raise ExternalApiError("Finlife unavailable")
 
     monkeypatch.setattr(
@@ -46,10 +50,13 @@ def test_finlife_mode_falls_back_to_cached_products(monkeypatch) -> None:
     service = ProductService(Settings(app_data_mode="finlife", finlife_api_key="test-key"))
 
     products = service.list_products(product_type=ProductType.DEPOSIT)
+    cached_products = service.list_products(product_type=ProductType.DEPOSIT)
 
     assert len(products) == 1
     assert products[0].source == DataSource.FINLIFE
     assert products[0].product_name == "캐시 정기예금"
+    assert cached_products == products
+    assert fetch_count == 1
 
 
 def test_finlife_mode_reuses_memory_cache_within_ttl(monkeypatch) -> None:
