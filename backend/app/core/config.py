@@ -23,6 +23,7 @@ class Settings(BaseSettings):
     finlife_bank_group_code: str = "020000"
     finlife_allowed_banks: str = ",".join(DEFAULT_ALLOWED_BANKS)
     finlife_timeout_seconds: float = Field(default=10.0, gt=0)
+    finlife_cache_ttl_seconds: float = Field(default=21_600.0, ge=0)
 
     openai_explanations_enabled: bool = False
     openai_api_key: str | None = None

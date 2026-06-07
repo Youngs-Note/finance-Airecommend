@@ -55,6 +55,7 @@ FINLIFE_API_KEY=
 FINLIFE_BASE_URL=https://finlife.fss.or.kr/finlifeapi
 FINLIFE_BANK_GROUP_CODE=020000
 FINLIFE_TIMEOUT_SECONDS=10
+FINLIFE_CACHE_TTL_SECONDS=21600
 OPENAI_EXPLANATIONS_ENABLED=false
 OPENAI_API_KEY=
 OPENAI_MODEL=gpt-5.4-mini
@@ -73,6 +74,8 @@ Render에서 금융감독원 Finlife API 호출이 실패하면 백엔드는
 `backend/app/data/finlife_products.json` 캐시 데이터를 사용한다.
 따라서 알파 테스트에서는 `APP_DATA_MODE=finlife`를 유지하되, 상품 API가 실시간 API 또는
 캐시 데이터 중 가능한 경로로 응답하는지 확인한다.
+`FINLIFE_CACHE_TTL_SECONDS`는 Finlife 상품 조회 메모리 캐시 유지 시간이다.
+기본값 `21600`은 6시간을 의미한다.
 
 ## Vercel 프론트엔드
 
