@@ -116,6 +116,7 @@ cd front
 - [API 문서](./docs/api.md)
 - [금융감독원 API 인증키 신청](./docs/setup-finlife-api.md)
 - [금융상품 데이터 출처와 저장 범위](./docs/data-sources.md)
+- [배포 안내](./docs/deployment.md)
 - [기존 Next.js 프론트엔드 검토](./docs/reviews/2026-06-02-front-prototype-review.md)
 - [프론트엔드 교체 후 연동 검토](./docs/reviews/2026-06-03-front-replacement-review.md)
 - [npm 보안 점검](./docs/reviews/2026-06-02-npm-audit.md)
