@@ -31,7 +31,7 @@ Render 배포 환경에서 금융감독원 Finlife API 호출이 실패할 때�
 - [x] 실제 Finlife 상품 캐시 생성
 - [x] `ProductService`에 API 실패 시 캐시 fallback 추가
 - [x] 테스트 추가 및 실행
-- [ ] Render를 다시 `finlife` 모드로 전환 후 배포 검증
+- [x] Render를 다시 `finlife` 모드로 전환 후 배포 검증
 
 ## 영향받는 파일 또는 구성 요소
 
@@ -73,4 +73,6 @@ Render 배포 환경에서 금융감독원 Finlife API 호출이 실패할 때�
 
 남은 작업:
 
-- Render 환경변수를 `APP_DATA_MODE=finlife`로 되돌리고 배포 후 `/api/products` 응답을 확인한다.
+- Render 배포 후 `/api/health`에서 `data_mode=finlife`를 확인했다.
+- Render 배포 후 `/api/products`에서 32개 상품, `source=finlife`, 샘플명 0개를 확인했다.
+- Render 런타임의 실시간 Finlife API 호출 실패 원인은 별도 분석 대상으로 남긴다.
