@@ -69,6 +69,11 @@ MYSQL_PASSWORD=
 
 OpenAI 크레딧 설정 전에는 `OPENAI_EXPLANATIONS_ENABLED=false`를 유지한다.
 
+Render에서 금융감독원 Finlife API 호출이 실패하면 백엔드는
+`backend/app/data/finlife_products.json` 캐시 데이터를 사용한다.
+따라서 알파 테스트에서는 `APP_DATA_MODE=finlife`를 유지하되, 상품 API가 실시간 API 또는
+캐시 데이터 중 가능한 경로로 응답하는지 확인한다.
+
 ## Vercel 프론트엔드
 
 Vercel 프로젝트의 Root Directory는 다음으로 설정한다.

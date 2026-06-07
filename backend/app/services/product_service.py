@@ -1,7 +1,8 @@
 from collections.abc import Iterable
 
 from backend.app.core.config import Settings
-from backend.app.core.errors import ProductNotFoundError
+from backend.app.core.errors import ExternalApiError, ProductNotFoundError
+from backend.app.data.finlife_cache import load_finlife_cached_products
 from backend.app.data.sample_products import get_sample_products
 from backend.app.schemas.product import Product, ProductType
 from backend.app.services.finlife_client import FinlifeClient
@@ -56,6 +57,11 @@ class ProductService:
                 for current_product_type in product_types
                 for product in client.fetch_products(current_product_type)
             ]
+        except ExternalApiError:
+            cached_products = load_finlife_cached_products(product_type)
+            if cached_products:
+                return cached_products
+            raise
         finally:
             client.close()
 

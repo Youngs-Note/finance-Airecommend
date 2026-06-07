@@ -1,0 +1,1609 @@
+[
+  {
+    "id": "finlife:deposit:0010927:010300100335",
+    "source": "finlife",
+    "source_company_code": "0010927",
+    "source_product_code": "010300100335",
+    "product_type": "deposit",
+    "bank_name": "국민은행",
+    "product_name": "KB Star 정기예금",
+    "join_way": [
+      "인터넷",
+      "스마트폰"
+    ],
+    "join_member": "실명의 개인 또는 개인사업자",
+    "special_conditions": "해당무",
+    "maturity_interest": "- 1개월 이내 : 기본이율 X 50%\n- 1개월 초과  ~ 3개월 이내 : 기본이율 X 30%\n- 3개월 초과 : 0.1%",
+    "notes": "- 가입금액 : 1백만원 이상",
+    "max_limit": null,
+    "disclosure_month": "202605",
+    "disclosed_at": "202605201008",
+    "collected_at": "2026-06-07T17:03:35.314852Z",
+    "source_url": "https://finlife.fss.or.kr/",
+    "options": [
+      {
+        "term_months": 1,
+        "base_rate": 1.8,
+        "max_rate": 2.45,
+        "interest_type": "단리",
+        "saving_type": null
+      },
+      {
+        "term_months": 3,
+        "base_rate": 2.0,
+        "max_rate": 2.75,
+        "interest_type": "단리",
+        "saving_type": null
+      },
+      {
+        "term_months": 6,
+        "base_rate": 2.1,
+        "max_rate": 2.85,
+        "interest_type": "단리",
+        "saving_type": null
+      },
+      {
+        "term_months": 12,
+        "base_rate": 2.15,
+        "max_rate": 2.9,
+        "interest_type": "단리",
+        "saving_type": null
+      },
+      {
+        "term_months": 24,
+        "base_rate": 2.2,
+        "max_rate": 2.4,
+        "interest_type": "단리",
+        "saving_type": null
+      },
+      {
+        "term_months": 36,
+        "base_rate": 2.2,
+        "max_rate": 2.4,
+        "interest_type": "단리",
+        "saving_type": null
+      }
+    ]
+  },
+  {
+    "id": "finlife:deposit:0011625:207-0134-16",
+    "source": "finlife",
+    "source_company_code": "0011625",
+    "source_product_code": "207-0134-16",
+    "product_type": "deposit",
+    "bank_name": "신한은행",
+    "product_name": "신한My플러스 정기예금",
+    "join_way": [
+      "영업점",
+      "스마트폰"
+    ],
+    "join_member": "개인고객",
+    "special_conditions": "※가산금리 최고 연 0.2%\n- 정기예금 미보유 : 연 0.1%\n- 소득이체 : 연 0.1%",
+    "maturity_interest": "-1개월 이하: (일반) 정기예금 기본금리 1/2\n(단, 최저금리 0.10%)\n-1개월 초과~6개월 이하: (일반) 정기예금 기본금리의 1/4\n(단, 최저금리 0.10%)\n-6개월 초과:  0.10%",
+    "notes": "1. 가입한도 :\n 50만원 이상 1억원 이내",
+    "max_limit": 100000000,
+    "disclosure_month": "202605",
+    "disclosed_at": "202605271029",
+    "collected_at": "2026-06-07T17:03:35.314852Z",
+    "source_url": "https://finlife.fss.or.kr/",
+    "options": [
+      {
+        "term_months": 1,
+        "base_rate": 1.8,
+        "max_rate": 2.5,
+        "interest_type": "단리",
+        "saving_type": null
+      },
+      {
+        "term_months": 3,
+        "base_rate": 2.0,
+        "max_rate": 2.85,
+        "interest_type": "단리",
+        "saving_type": null
+      },
+      {
+        "term_months": 6,
+        "base_rate": 2.0,
+        "max_rate": 2.9,
+        "interest_type": "단리",
+        "saving_type": null
+      },
+      {
+        "term_months": 12,
+        "base_rate": 2.05,
+        "max_rate": 3.0,
+        "interest_type": "단리",
+        "saving_type": null
+      }
+    ]
+  },
+  {
+    "id": "finlife:deposit:0011625:207-0135-12",
+    "source": "finlife",
+    "source_company_code": "0011625",
+    "source_product_code": "207-0135-12",
+    "product_type": "deposit",
+    "bank_name": "신한은행",
+    "product_name": "쏠편한 정기예금",
+    "join_way": [
+      "인터넷",
+      "스마트폰"
+    ],
+    "join_member": "만14세이상 개인고객",
+    "special_conditions": "해당사항없음",
+    "maturity_interest": "-1개월 이하: (일반) 정기예금 기본금리 1/2\n(단, 최저금리 0.10%)\n-1개월 초과~6개월 이하: (일반) 정기예금 기본금리의 1/4\n(단, 최저금리 0.10%)\n-6개월 초과:  0.10%",
+    "notes": "1. 가입한도 :\n 1만원 이상",
+    "max_limit": null,
+    "disclosure_month": "202605",
+    "disclosed_at": "202605271029",
+    "collected_at": "2026-06-07T17:03:35.314852Z",
+    "source_url": "https://finlife.fss.or.kr/",
+    "options": [
+      {
+        "term_months": 1,
+        "base_rate": 1.8,
+        "max_rate": 2.45,
+        "interest_type": "단리",
+        "saving_type": null
+      },
+      {
+        "term_months": 3,
+        "base_rate": 2.0,
+        "max_rate": 2.8,
+        "interest_type": "단리",
+        "saving_type": null
+      },
+      {
+        "term_months": 6,
+        "base_rate": 2.0,
+        "max_rate": 2.85,
+        "interest_type": "단리",
+        "saving_type": null
+      },
+      {
+        "term_months": 12,
+        "base_rate": 2.05,
+        "max_rate": 2.9,
+        "interest_type": "단리",
+        "saving_type": null
+      },
+      {
+        "term_months": 24,
+        "base_rate": 2.1,
+        "max_rate": 2.4,
+        "interest_type": "단리",
+        "saving_type": null
+      },
+      {
+        "term_months": 36,
+        "base_rate": 2.1,
+        "max_rate": 2.4,
+        "interest_type": "단리",
+        "saving_type": null
+      }
+    ]
+  },
+  {
+    "id": "finlife:deposit:0010001:WR0001B",
+    "source": "finlife",
+    "source_company_code": "0010001",
+    "source_product_code": "WR0001B",
+    "product_type": "deposit",
+    "bank_name": "우리은행",
+    "product_name": "WON플러스예금",
+    "join_way": [
+      "인터넷",
+      "스마트폰",
+      "전화(텔레뱅킹)"
+    ],
+    "join_member": "실명의 개인",
+    "special_conditions": "해당사항 없음",
+    "maturity_interest": "만기 후\n- 1개월이내 : 만기시점약정이율×50%\n- 1개월초과 6개월이내: 만기시점약정이율×30%\n- 6개월초과 : 만기시점약정이율×20%\n\n※ 만기시점 약정이율 : 일반정기예금 금리",
+    "notes": "- 가입기간: 1~36개월\n- 최소가입금액: 1만원 이상\n- 만기일을 일,월 단위로 자유롭게 선택 가능\n- 만기해지 시 신규일 당시 영업점과 인터넷 홈페이지에 고시된 계약기간별 금리 적용",
+    "max_limit": null,
+    "disclosure_month": "202605",
+    "disclosed_at": "202605201357",
+    "collected_at": "2026-06-07T17:03:35.314852Z",
+    "source_url": "https://finlife.fss.or.kr/",
+    "options": [
+      {
+        "term_months": 1,
+        "base_rate": 2.55,
+        "max_rate": 2.55,
+        "interest_type": "단리",
+        "saving_type": null
+      },
+      {
+        "term_months": 3,
+        "base_rate": 2.75,
+        "max_rate": 2.75,
+        "interest_type": "단리",
+        "saving_type": null
+      },
+      {
+        "term_months": 6,
+        "base_rate": 2.85,
+        "max_rate": 2.85,
+        "interest_type": "단리",
+        "saving_type": null
+      },
+      {
+        "term_months": 12,
+        "base_rate": 2.9,
+        "max_rate": 2.9,
+        "interest_type": "단리",
+        "saving_type": null
+      },
+      {
+        "term_months": 24,
+        "base_rate": 2.4,
+        "max_rate": 2.4,
+        "interest_type": "단리",
+        "saving_type": null
+      },
+      {
+        "term_months": 36,
+        "base_rate": 2.4,
+        "max_rate": 2.4,
+        "interest_type": "단리",
+        "saving_type": null
+      }
+    ]
+  },
+  {
+    "id": "finlife:deposit:0015130:10-01-20-388-0002",
+    "source": "finlife",
+    "source_company_code": "0015130",
+    "source_product_code": "10-01-20-388-0002",
+    "product_type": "deposit",
+    "bank_name": "주식회사 카카오뱅크",
+    "product_name": "카카오뱅크 정기예금",
+    "join_way": [
+      "스마트폰"
+    ],
+    "join_member": "만 14세 이상의 실명의 개인",
+    "special_conditions": "※복잡한 우대조건 없이 가입가능한 정기예금",
+    "maturity_interest": "- 만기 후 1개월 이내 : 가입(또는 자동연장)시점 기본금리x50%\n- 만기 후 1개월초과 3개월 이내 : 가입(또는 자동연장)시점 기본금리x30%\n- 만기 후 3개월 초과 : 0.20%",
+    "notes": "1. 가입방법 : 스마트폰\n2. 가입금액 : 100만원 이상(원단위)\n3. 가입기간 : 1개월 이상 ~ 36개월 이하(월, 일단위 지정 가능)",
+    "max_limit": null,
+    "disclosure_month": "202605",
+    "disclosed_at": "202605281021",
+    "collected_at": "2026-06-07T17:03:35.314852Z",
+    "source_url": "https://finlife.fss.or.kr/",
+    "options": [
+      {
+        "term_months": 1,
+        "base_rate": 2.9,
+        "max_rate": 2.9,
+        "interest_type": "단리",
+        "saving_type": null
+      },
+      {
+        "term_months": 3,
+        "base_rate": 3.1,
+        "max_rate": 3.1,
+        "interest_type": "단리",
+        "saving_type": null
+      },
+      {
+        "term_months": 6,
+        "base_rate": 3.2,
+        "max_rate": 3.2,
+        "interest_type": "단리",
+        "saving_type": null
+      },
+      {
+        "term_months": 12,
+        "base_rate": 3.4,
+        "max_rate": 3.4,
+        "interest_type": "단리",
+        "saving_type": null
+      },
+      {
+        "term_months": 24,
+        "base_rate": 2.8,
+        "max_rate": 2.8,
+        "interest_type": "단리",
+        "saving_type": null
+      },
+      {
+        "term_months": 36,
+        "base_rate": 2.8,
+        "max_rate": 2.8,
+        "interest_type": "단리",
+        "saving_type": null
+      }
+    ]
+  },
+  {
+    "id": "finlife:deposit:0014674:01013000110000000001",
+    "source": "finlife",
+    "source_company_code": "0014674",
+    "source_product_code": "01013000110000000001",
+    "product_type": "deposit",
+    "bank_name": "주식회사 케이뱅크",
+    "product_name": "코드K 정기예금",
+    "join_way": [
+      "스마트폰"
+    ],
+    "join_member": "만 17세 이상 실명의 개인 및 개인사업자",
+    "special_conditions": "우대조건 없음",
+    "maturity_interest": "만기 후 \n- 1개월 이내 : 만기시점 기본금리 X 50%\n- 1개월 초과~6개월 이내 : 만기시점 기본금리 X 30%\n- 6개월 초과 : 연 0.20%",
+    "notes": "가입금액 : 1백만원 이상\n가입기간 : 1개월~36개월",
+    "max_limit": null,
+    "disclosure_month": "202605",
+    "disclosed_at": "202605291042",
+    "collected_at": "2026-06-07T17:03:35.314852Z",
+    "source_url": "https://finlife.fss.or.kr/",
+    "options": [
+      {
+        "term_months": 1,
+        "base_rate": 2.8,
+        "max_rate": 2.8,
+        "interest_type": "단리",
+        "saving_type": null
+      },
+      {
+        "term_months": 3,
+        "base_rate": 3.1,
+        "max_rate": 3.1,
+        "interest_type": "단리",
+        "saving_type": null
+      },
+      {
+        "term_months": 6,
+        "base_rate": 3.2,
+        "max_rate": 3.2,
+        "interest_type": "단리",
+        "saving_type": null
+      },
+      {
+        "term_months": 12,
+        "base_rate": 3.41,
+        "max_rate": 3.41,
+        "interest_type": "단리",
+        "saving_type": null
+      },
+      {
+        "term_months": 24,
+        "base_rate": 3.1,
+        "max_rate": 3.1,
+        "interest_type": "단리",
+        "saving_type": null
+      },
+      {
+        "term_months": 36,
+        "base_rate": 3.15,
+        "max_rate": 3.15,
+        "interest_type": "단리",
+        "saving_type": null
+      }
+    ]
+  },
+  {
+    "id": "finlife:deposit:0013909:4",
+    "source": "finlife",
+    "source_company_code": "0013909",
+    "source_product_code": "4",
+    "product_type": "deposit",
+    "bank_name": "주식회사 하나은행",
+    "product_name": "하나의정기예금",
+    "join_way": [
+      "스마트폰"
+    ],
+    "join_member": "실명의 개인 또는 개인사업자",
+    "special_conditions": "해당사항없음",
+    "maturity_interest": "1개월이내 : 지급당시 해당기간 일반정기예금 월이자지급식 기본금리 1/2\n1개월초과 : 지급당시 해당기간 일반정기예금 월이자지급식 기본금리 1/4",
+    "notes": "1. 가입금액: 1백만원이상\n2. 1인 최대가입한도 : 제한 없음",
+    "max_limit": null,
+    "disclosure_month": "202605",
+    "disclosed_at": "202605200957",
+    "collected_at": "2026-06-07T17:03:35.314852Z",
+    "source_url": "https://finlife.fss.or.kr/",
+    "options": [
+      {
+        "term_months": 1,
+        "base_rate": 1.8,
+        "max_rate": 2.45,
+        "interest_type": "단리",
+        "saving_type": null
+      },
+      {
+        "term_months": 3,
+        "base_rate": 1.9,
+        "max_rate": 2.75,
+        "interest_type": "단리",
+        "saving_type": null
+      },
+      {
+        "term_months": 6,
+        "base_rate": 2.0,
+        "max_rate": 2.85,
+        "interest_type": "단리",
+        "saving_type": null
+      },
+      {
+        "term_months": 12,
+        "base_rate": 2.05,
+        "max_rate": 2.9,
+        "interest_type": "단리",
+        "saving_type": null
+      },
+      {
+        "term_months": 24,
+        "base_rate": 2.05,
+        "max_rate": 2.4,
+        "interest_type": "단리",
+        "saving_type": null
+      },
+      {
+        "term_months": 36,
+        "base_rate": 2.05,
+        "max_rate": 2.4,
+        "interest_type": "단리",
+        "saving_type": null
+      }
+    ]
+  },
+  {
+    "id": "finlife:deposit:0017801:1001202000002",
+    "source": "finlife",
+    "source_company_code": "0017801",
+    "source_product_code": "1001202000002",
+    "product_type": "deposit",
+    "bank_name": "토스뱅크 주식회사",
+    "product_name": "토스뱅크 먼저 이자 받는 정기예금",
+    "join_way": [
+      "스마트폰"
+    ],
+    "join_member": "토스뱅크 통장 또는 토스뱅크 서브 통장을 보유한 만 17세 이상 실명의 개인",
+    "special_conditions": "우대조건 없음",
+    "maturity_interest": "· 만기 후 1개월 이내 : 만기시점 기본금리 X 50% \n· 만기 후 1개월 초과 3개월 이내 : 만기시점 기본금리 X 20% \n· 만기 후 3개월 초과 : 연 0.10%",
+    "notes": "· 계약기간 : 3개월, 6개월, 12개월 \n· 가입금액 : 최소 1백만원 최대 10억원",
+    "max_limit": 1000000000,
+    "disclosure_month": "202605",
+    "disclosed_at": "202605221102",
+    "collected_at": "2026-06-07T17:03:35.314852Z",
+    "source_url": "https://finlife.fss.or.kr/",
+    "options": [
+      {
+        "term_months": 3,
+        "base_rate": 3.0,
+        "max_rate": 3.0,
+        "interest_type": "단리",
+        "saving_type": null
+      },
+      {
+        "term_months": 6,
+        "base_rate": 3.08,
+        "max_rate": 3.08,
+        "interest_type": "단리",
+        "saving_type": null
+      },
+      {
+        "term_months": 12,
+        "base_rate": 3.2,
+        "max_rate": 3.2,
+        "interest_type": "단리",
+        "saving_type": null
+      }
+    ]
+  },
+  {
+    "id": "finlife:deposit:0010002:00320342",
+    "source": "finlife",
+    "source_company_code": "0010002",
+    "source_product_code": "00320342",
+    "product_type": "deposit",
+    "bank_name": "한국스탠다드차타드은행",
+    "product_name": "e-그린세이브예금",
+    "join_way": [
+      "인터넷",
+      "스마트폰"
+    ],
+    "join_member": "개인(개인사업자 포함)",
+    "special_conditions": "1.SC제일은행 최초 거래 신규고객에 대하여 우대 이율을 제공함 (보너스이율0.2%)                     2.SC제일마이백통장에서 출금하여 이 예금을 신규하는경우에 보너스이율을 제공함\n(가입기간:1년제/ 보너스이율:0.1% / 만기해약하는 경우에 한해 보너스이율을 적용함)",
+    "maturity_interest": "만기 후 1개월: 약정이율의 50%\n만기 후 1개월 초과 1년 이내: 약정이율의 30%\n만기 후 1년 초과: 약정이율의 10%",
+    "notes": "디지털채널 전용상품 (인터넷, 모바일뱅킹)",
+    "max_limit": 1000000000,
+    "disclosure_month": "202605",
+    "disclosed_at": "202606011033",
+    "collected_at": "2026-06-07T17:03:35.314852Z",
+    "source_url": "https://finlife.fss.or.kr/",
+    "options": [
+      {
+        "term_months": 1,
+        "base_rate": 2.1,
+        "max_rate": 2.3,
+        "interest_type": "단리",
+        "saving_type": null
+      },
+      {
+        "term_months": 3,
+        "base_rate": 2.75,
+        "max_rate": 2.95,
+        "interest_type": "단리",
+        "saving_type": null
+      },
+      {
+        "term_months": 6,
+        "base_rate": 2.95,
+        "max_rate": 3.15,
+        "interest_type": "단리",
+        "saving_type": null
+      },
+      {
+        "term_months": 12,
+        "base_rate": 3.35,
+        "max_rate": 3.65,
+        "interest_type": "단리",
+        "saving_type": null
+      }
+    ]
+  },
+  {
+    "id": "finlife:saving:0010927:010200100104",
+    "source": "finlife",
+    "source_company_code": "0010927",
+    "source_product_code": "010200100104",
+    "product_type": "saving",
+    "bank_name": "국민은행",
+    "product_name": "KB 특★한 적금",
+    "join_way": [
+      "스마트폰"
+    ],
+    "join_member": "실명의 개인",
+    "special_conditions": "항목별 적용 조건 충족시, 최고 연 4.0%p\n① 목표달성 축하 우대이율: 최고 연 1.0%p\n    50만원 이하: 연 0.5%p, 50만원 초과: 연 1.0%p \n② 별 모으기 우대이율 : 최고 연 1.0%p\n    10개: 연 0.5%p, 20개: 연 1.0%p\n③ 함께해요 우대이율: 최고 연 2.0%p",
+    "maturity_interest": "- 1개월 이내 : 기본이율 X 50%\n- 1개월 초과  ~ 3개월 이내 : 기본이율 X 30%\n- 3개월 초과 : 0.1%",
+    "notes": "개인사업자, 임의단체 및\n공동명의 가입 불가\n(1인 최대 3계좌)",
+    "max_limit": null,
+    "disclosure_month": "202605",
+    "disclosed_at": "202605201009",
+    "collected_at": "2026-06-07T17:03:57.669298Z",
+    "source_url": "https://finlife.fss.or.kr/",
+    "options": [
+      {
+        "term_months": 6,
+        "base_rate": 2.0,
+        "max_rate": 6.0,
+        "interest_type": "단리",
+        "saving_type": "자유적립식"
+      },
+      {
+        "term_months": 3,
+        "base_rate": 2.0,
+        "max_rate": 6.0,
+        "interest_type": "단리",
+        "saving_type": "자유적립식"
+      },
+      {
+        "term_months": 1,
+        "base_rate": 2.0,
+        "max_rate": 6.0,
+        "interest_type": "단리",
+        "saving_type": "자유적립식"
+      }
+    ]
+  },
+  {
+    "id": "finlife:saving:0010927:010200100051",
+    "source": "finlife",
+    "source_company_code": "0010927",
+    "source_product_code": "010200100051",
+    "product_type": "saving",
+    "bank_name": "국민은행",
+    "product_name": "KB국민프리미엄적금(정액)",
+    "join_way": [
+      "영업점",
+      "인터넷",
+      "스마트폰",
+      "전화(텔레뱅킹)"
+    ],
+    "join_member": "실명의 개인",
+    "special_conditions": "① 단체가입/나라사랑/쿠폰 우대이율: \n    1년: 연 0.6%p, 2년: 연 0.7%p,\n    3년: 연 0.9%p, 5년: 연 1.0%p \n   (중복적용되지 않음, 계약기간별차등적용)\n② 교차거래 우대이율: 연 0.3%p",
+    "maturity_interest": "- 1개월 이내 : 기본이율 X 50%\n- 1개월 초과  ~ 3개월 이내 : 기본이율 X 30%\n- 3개월 초과 : 0.1%",
+    "notes": "1인 1계좌",
+    "max_limit": null,
+    "disclosure_month": "202605",
+    "disclosed_at": "202605201009",
+    "collected_at": "2026-06-07T17:03:57.669298Z",
+    "source_url": "https://finlife.fss.or.kr/",
+    "options": [
+      {
+        "term_months": 36,
+        "base_rate": 2.8,
+        "max_rate": 4.0,
+        "interest_type": "단리",
+        "saving_type": "정액적립식"
+      },
+      {
+        "term_months": 24,
+        "base_rate": 2.7,
+        "max_rate": 3.7,
+        "interest_type": "단리",
+        "saving_type": "정액적립식"
+      },
+      {
+        "term_months": 12,
+        "base_rate": 2.5,
+        "max_rate": 3.4,
+        "interest_type": "단리",
+        "saving_type": "정액적립식"
+      }
+    ]
+  },
+  {
+    "id": "finlife:saving:0010927:010200100070",
+    "source": "finlife",
+    "source_company_code": "0010927",
+    "source_product_code": "010200100070",
+    "product_type": "saving",
+    "bank_name": "국민은행",
+    "product_name": "KB내맘대로적금",
+    "join_way": [
+      "인터넷",
+      "스마트폰"
+    ],
+    "join_member": "실명의 개인 또는 개인사업자",
+    "special_conditions": "신규 시 다음의 9가지 우대이율 항목 중 6가지를 자유롭게 선택하고, 아래 우대이율 적용조건 충족 시 항목 당 각 연0.1%p의 우대이율 적용\n(최고 연0.6%p)\n - 우대이율 항목 : 급여이체, 카드결제계좌, 자동이체 저축, 아파트관리비 이체, KB스타뱅킹 이체, 장기거래, 첫 거래, 주택청약종합저축, 소중한 날",
+    "maturity_interest": "- 1개월 이내 : 기본이율 X 50%\n- 1개월 초과  ~ 3개월 이내 : 기본이율 X 30%\n- 3개월 초과 : 0.1%",
+    "notes": "인터넷뱅킹/KB스타뱅킹 전용상품",
+    "max_limit": null,
+    "disclosure_month": "202605",
+    "disclosed_at": "202605201009",
+    "collected_at": "2026-06-07T17:03:57.669298Z",
+    "source_url": "https://finlife.fss.or.kr/",
+    "options": [
+      {
+        "term_months": 6,
+        "base_rate": 2.3,
+        "max_rate": 2.9,
+        "interest_type": "단리",
+        "saving_type": "정액적립식"
+      },
+      {
+        "term_months": 12,
+        "base_rate": 2.55,
+        "max_rate": 3.15,
+        "interest_type": "단리",
+        "saving_type": "정액적립식"
+      },
+      {
+        "term_months": 24,
+        "base_rate": 2.75,
+        "max_rate": 3.35,
+        "interest_type": "단리",
+        "saving_type": "정액적립식"
+      },
+      {
+        "term_months": 36,
+        "base_rate": 2.95,
+        "max_rate": 3.55,
+        "interest_type": "단리",
+        "saving_type": "정액적립식"
+      }
+    ]
+  },
+  {
+    "id": "finlife:saving:0010927:010200100084",
+    "source": "finlife",
+    "source_company_code": "0010927",
+    "source_product_code": "010200100084",
+    "product_type": "saving",
+    "bank_name": "국민은행",
+    "product_name": "KB맑은하늘적금",
+    "join_way": [
+      "영업점",
+      "인터넷",
+      "스마트폰"
+    ],
+    "join_member": "실명의 개인",
+    "special_conditions": "맑은하늘을 위한 미션별 제공조건을 달성하는 경우 각 미션별 우대이율 제공\n-1년제 최고 연 0.8%p, 2년제 최고 연 0.9%p, 3년제 최고 연 1.0%p\n① 종이통장 줄이기 미션: 연 0.1%p\n② 종이서식 줄이기 미션: 연 0.2%p\n③ 대중교통 미션: 1년제 연 0.4%p, 2년제 연 0.5%p, 3년제 연 0.6%p\n④ 퀴즈미션: 연 0.1%p",
+    "maturity_interest": "- 1개월 이내 : 기본이율 X 50%\n- 1개월 초과  ~ 3개월 이내 : 기본이율 X 30%\n- 3개월 초과 : 0.1%",
+    "notes": "공동명의 불가\n(1인 최대 3계좌)",
+    "max_limit": null,
+    "disclosure_month": "202605",
+    "disclosed_at": "202605201009",
+    "collected_at": "2026-06-07T17:03:57.669298Z",
+    "source_url": "https://finlife.fss.or.kr/",
+    "options": [
+      {
+        "term_months": 24,
+        "base_rate": 2.55,
+        "max_rate": 3.45,
+        "interest_type": "단리",
+        "saving_type": "자유적립식"
+      },
+      {
+        "term_months": 12,
+        "base_rate": 2.45,
+        "max_rate": 3.25,
+        "interest_type": "단리",
+        "saving_type": "자유적립식"
+      },
+      {
+        "term_months": 36,
+        "base_rate": 2.85,
+        "max_rate": 3.85,
+        "interest_type": "단리",
+        "saving_type": "자유적립식"
+      }
+    ]
+  },
+  {
+    "id": "finlife:saving:0011625:230-0119-85",
+    "source": "finlife",
+    "source_company_code": "0011625",
+    "source_product_code": "230-0119-85",
+    "product_type": "saving",
+    "bank_name": "신한은행",
+    "product_name": "신한 알.쏠 적금",
+    "join_way": [
+      "영업점",
+      "스마트폰"
+    ],
+    "join_member": "제한없음",
+    "special_conditions": "※가산금리 최고 연 1.30%\n- 소득이체 : 연 0.6%\n- 카드이용 : 연 0.3%\n- 오픈뱅킹 : 연 0.6%\n- 청약보유 : 연 0.3%\n- 마케팅동의 : 연 0.1%\n※ 우대금리 항목별 자세한 적용 조건은 상품설명서 참조",
+    "maturity_interest": "-1개월 이하:(일반) 정기적금 기본금리 1/2\n(단, 최저금리 0.10%)\n-1개월 초과~6개월 이하: (일반) 정기적금 기본금리의 1/4\n(단, 최저금리 0.10%)\n-6개월 초과 0.10%",
+    "notes": "1. 가입한도: \n월300만원 이하\n2. 1인 다계좌",
+    "max_limit": 3000000,
+    "disclosure_month": "202605",
+    "disclosed_at": "202605200911",
+    "collected_at": "2026-06-07T17:03:57.669298Z",
+    "source_url": "https://finlife.fss.or.kr/",
+    "options": [
+      {
+        "term_months": 12,
+        "base_rate": 2.45,
+        "max_rate": 3.75,
+        "interest_type": "단리",
+        "saving_type": "자유적립식"
+      },
+      {
+        "term_months": 24,
+        "base_rate": 2.45,
+        "max_rate": 3.75,
+        "interest_type": "단리",
+        "saving_type": "자유적립식"
+      },
+      {
+        "term_months": 36,
+        "base_rate": 2.45,
+        "max_rate": 3.75,
+        "interest_type": "단리",
+        "saving_type": "자유적립식"
+      }
+    ]
+  },
+  {
+    "id": "finlife:saving:0010001:WR0001L",
+    "source": "finlife",
+    "source_company_code": "0010001",
+    "source_product_code": "WR0001L",
+    "product_type": "saving",
+    "bank_name": "우리은행",
+    "product_name": "WON적금",
+    "join_way": [
+      "스마트폰",
+      "전화(텔레뱅킹)"
+    ],
+    "join_member": "실명의 개인",
+    "special_conditions": "1. 아래 각 항(가, 나)의 조건을 충족하는 경우 합산 최대 연 0.2%p 우대\n가. 이 적금을 우리꿈통장, WON통장에 연결하여 가입하는 경우 : 0.1%p\n나. 우리 오픈뱅킹 서비스에 타행계좌가 등록되어 있는 경우 : 연 0.1%p",
+    "maturity_interest": "만기 후\n- 1개월이내 : 만기시점약정이율×50%\n- 1개월초과 6개월이내: 만기시점약정이율×30%\n- 6개월초과 : 만기시점약정이율×20%\n\n※ 만기시점 약정이율 : 일반정기적금 금리",
+    "notes": "1. 가입기간 : 1년\n2. 가입금액 : 월 50만원 이내",
+    "max_limit": null,
+    "disclosure_month": "202605",
+    "disclosed_at": "202605201357",
+    "collected_at": "2026-06-07T17:03:57.669298Z",
+    "source_url": "https://finlife.fss.or.kr/",
+    "options": [
+      {
+        "term_months": 12,
+        "base_rate": 2.95,
+        "max_rate": 3.15,
+        "interest_type": "단리",
+        "saving_type": "자유적립식"
+      },
+      {
+        "term_months": 12,
+        "base_rate": 2.95,
+        "max_rate": 3.15,
+        "interest_type": "단리",
+        "saving_type": "정액적립식"
+      }
+    ]
+  },
+  {
+    "id": "finlife:saving:0010001:WR0001F",
+    "source": "finlife",
+    "source_company_code": "0010001",
+    "source_product_code": "WR0001F",
+    "product_type": "saving",
+    "bank_name": "우리은행",
+    "product_name": "우리SUPER주거래적금",
+    "join_way": [
+      "영업점",
+      "인터넷",
+      "스마트폰",
+      "전화(텔레뱅킹)"
+    ],
+    "join_member": "실명의 개인",
+    "special_conditions": "1. 거래실적 인정기간 중 우리은행 입출식 계좌에서 각 항목별 실적 월수가 계약기간의 절반 이상인 경우\n-급여/연금 이체: 연 0.7%p\n-공과금 자동이체: 연 0.3%p\n-우리카드(신용/체크) 결제금액 10만원 이상 출금: 연 0.3%p\n2. 마케팅(전화·SMS) 동의 및 만기해지시점까지 유지: 연 0.1%p\n3. 상품 가입 시 금리우대쿠폰 적용한 경우",
+    "maturity_interest": "만기 후\n- 1개월이내 : 만기시점약정이율×50%\n- 1개월초과 6개월이내: 만기시점약정이율×30%\n- 6개월초과 : 만기시점약정이율×20%\n\n※ 만기시점 약정이율 : 일반정기적금 금리",
+    "notes": "1. 가입기간 : 1년/2년/3년\n2. 가입금액 : 월 50만원 이내",
+    "max_limit": null,
+    "disclosure_month": "202605",
+    "disclosed_at": "202605201357",
+    "collected_at": "2026-06-07T17:03:57.669298Z",
+    "source_url": "https://finlife.fss.or.kr/",
+    "options": [
+      {
+        "term_months": 12,
+        "base_rate": 2.15,
+        "max_rate": 3.55,
+        "interest_type": "단리",
+        "saving_type": "자유적립식"
+      },
+      {
+        "term_months": 24,
+        "base_rate": 2.15,
+        "max_rate": 3.55,
+        "interest_type": "단리",
+        "saving_type": "자유적립식"
+      },
+      {
+        "term_months": 36,
+        "base_rate": 2.15,
+        "max_rate": 3.55,
+        "interest_type": "단리",
+        "saving_type": "자유적립식"
+      },
+      {
+        "term_months": 36,
+        "base_rate": 2.15,
+        "max_rate": 3.55,
+        "interest_type": "단리",
+        "saving_type": "정액적립식"
+      },
+      {
+        "term_months": 12,
+        "base_rate": 2.15,
+        "max_rate": 3.55,
+        "interest_type": "단리",
+        "saving_type": "정액적립식"
+      },
+      {
+        "term_months": 24,
+        "base_rate": 2.15,
+        "max_rate": 3.55,
+        "interest_type": "단리",
+        "saving_type": "정액적립식"
+      }
+    ]
+  },
+  {
+    "id": "finlife:saving:0015130:10-01-30-355-0005",
+    "source": "finlife",
+    "source_company_code": "0015130",
+    "source_product_code": "10-01-30-355-0005",
+    "product_type": "saving",
+    "bank_name": "주식회사 카카오뱅크",
+    "product_name": "카카오뱅크 26주적금",
+    "join_way": [
+      "스마트폰"
+    ],
+    "join_member": "만 14세 이상의 실명의 개인",
+    "special_conditions": "자동이체 연속 성공 우대금리 제공 : 최고 연 3.00%p\n- 제공조건\n① 7주차까지 자동이체 납입을 연속 성공하고 만기해지 하는 경우 연 1.00%p 제공\n② 26주차까지 자동이체 납입을 연속 성공하고 만기해지 하는 경우 연 2.00%p 추가 제공\n- 유의사항 : 자동이체 실패한 주차를 빈자리채우기 하여도 성공으로 인정되지 않음",
+    "maturity_interest": "- 만기 후 1개월 이내 : 가입시점 기본금리x50%\n- 만기 후 1개월초과 3개월 이내 : 가입시점 기본금리x30%\n- 만기 후 3개월 초과 : 0.20%",
+    "notes": "1. 가입방법 : 스마트폰\n2. 가입금액 : 1천원, 2천원, 3천원, 5천원, 1만원\n3. 가입기간 : 6개월\n4. 26주적금서비스(자동이체)를 통해서 납입이 가능하며, 그 외의 입금은 모두 제한됨\n(단, 26주적금 서비스를 통한 납입 실패 시 빈자리 채우기로 납입 가능)",
+    "max_limit": null,
+    "disclosure_month": "202605",
+    "disclosed_at": "202605281024",
+    "collected_at": "2026-06-07T17:03:57.669298Z",
+    "source_url": "https://finlife.fss.or.kr/",
+    "options": [
+      {
+        "term_months": 6,
+        "base_rate": 2.0,
+        "max_rate": 5.0,
+        "interest_type": "단리",
+        "saving_type": "자유적립식"
+      }
+    ]
+  },
+  {
+    "id": "finlife:saving:0015130:10-01-30-355-0007",
+    "source": "finlife",
+    "source_company_code": "0015130",
+    "source_product_code": "10-01-30-355-0007",
+    "product_type": "saving",
+    "bank_name": "주식회사 카카오뱅크",
+    "product_name": "카카오뱅크 우리아이적금",
+    "join_way": [
+      "스마트폰"
+    ],
+    "join_member": "우리아이통장을 보유한 만 0세 이상 만 17세 미만의 실명의 개인",
+    "special_conditions": "자동이체시 우대금리 제공 : 연 4.00%p\n - 제공조건 : 전체 계약월수의 1/2이상을 자동이체로 납입하고 만기 해지하는 경우\n - 유의사항 : 만기 자동연장된 원리금은 우대금리를 제공하지 않음",
+    "maturity_interest": "- 만기 후 1개월 이내 : 가입시점 기본금리x50%\n- 만기 후 1개월초과 3개월 이내 : 가입시점 기본금리x30%\n- 만기 후 3개월 초과 : 0.20%",
+    "notes": "1. 가입방법: 스마트폰 \n2. 가입기간 : 12개월 \n3. 월 적립한도: 1천원 이상 월 20만원 이하 원단위(단, 자동연장된 원리금은 월 적립한도에 포함되지 않음)\n4. 우리아이서비스를 통해 법정대리인으로 확인된 부 또는 모가 본인을 대리하여 가입 가능",
+    "max_limit": null,
+    "disclosure_month": "202605",
+    "disclosed_at": "202605281024",
+    "collected_at": "2026-06-07T17:03:57.669298Z",
+    "source_url": "https://finlife.fss.or.kr/",
+    "options": [
+      {
+        "term_months": 12,
+        "base_rate": 3.0,
+        "max_rate": 7.0,
+        "interest_type": "단리",
+        "saving_type": "자유적립식"
+      }
+    ]
+  },
+  {
+    "id": "finlife:saving:0015130:10-01-30-355-0002",
+    "source": "finlife",
+    "source_company_code": "0015130",
+    "source_product_code": "10-01-30-355-0002",
+    "product_type": "saving",
+    "bank_name": "주식회사 카카오뱅크",
+    "product_name": "카카오뱅크 자유적금",
+    "join_way": [
+      "스마트폰"
+    ],
+    "join_member": "만 14세 이상의 실명의 개인",
+    "special_conditions": "자동이체시 우대금리 제공 : 연 0.20%p\n - 제공조건 : 전체 계약월수의 1/2이상을 자동이체로 납입하고 만기 해지하는 경우\n - 유의사항 : 만기 자동연장된 원리금은 우대금리를 제공하지 않음",
+    "maturity_interest": "- 만기 후 1개월 이내 : 가입(또는 자동연장)시점 기본금리x50%\n- 만기 후 1개월초과 3개월 이내 : 가입(또는 자동연장)시점 기본금리x30%\n- 만기 후 3개월 초과 : 0.20%",
+    "notes": "1. 가입방법 : 스마트폰\n2. 가입금액 : 1천원 이상(원단위)\n3. 가입기간 : 6개월 이상 ~ 36개월 이하(월, 일단위 지정 가능)\n4. 월 적립한도 : 1천원 이상 월 300만원 이하 원단위(단, 자동연장된 원리금은 월 적립한도에 포함되지 않음)",
+    "max_limit": null,
+    "disclosure_month": "202605",
+    "disclosed_at": "202605281024",
+    "collected_at": "2026-06-07T17:03:57.669298Z",
+    "source_url": "https://finlife.fss.or.kr/",
+    "options": [
+      {
+        "term_months": 36,
+        "base_rate": 2.8,
+        "max_rate": 3.0,
+        "interest_type": "단리",
+        "saving_type": "자유적립식"
+      },
+      {
+        "term_months": 6,
+        "base_rate": 3.3,
+        "max_rate": 3.5,
+        "interest_type": "단리",
+        "saving_type": "자유적립식"
+      },
+      {
+        "term_months": 24,
+        "base_rate": 2.8,
+        "max_rate": 3.0,
+        "interest_type": "단리",
+        "saving_type": "자유적립식"
+      },
+      {
+        "term_months": 12,
+        "base_rate": 3.45,
+        "max_rate": 3.65,
+        "interest_type": "단리",
+        "saving_type": "자유적립식"
+      }
+    ]
+  },
+  {
+    "id": "finlife:saving:0015130:10-01-30-355-0006",
+    "source": "finlife",
+    "source_company_code": "0015130",
+    "source_product_code": "10-01-30-355-0006",
+    "product_type": "saving",
+    "bank_name": "주식회사 카카오뱅크",
+    "product_name": "카카오뱅크 한달적금",
+    "join_way": [
+      "스마트폰"
+    ],
+    "join_member": "만 14세 이상의 실명의 개인",
+    "special_conditions": "매일/보너스 우대금리 제공 : 최고 연 5.50%p\n- 제공조건\n① 매일 우대금리 : 매 입금 시 마다 연 0.10%p 제공(최대 연 3.10%p)\n② 보너스 우대금리 : 누적하여 5/10/15/20/25/31회 입금 시 해당 우대금리 제공(최대 연 2.40%p)\n- 유의사항 : 만기 해지하는 경우에만 제공",
+    "maturity_interest": "- 만기 후 1개월 이내 : 가입시점 기본금리x50%\n- 만기 후 1개월초과 3개월 이내 : 가입시점 기본금리x30%\n- 만기 후 3개월 초과 : 0.20%",
+    "notes": "1. 가입방법 : 스마트폰\n2. 납입금액 : 1회 100원 이상 3만원 이하(원단위)\n3. 가입기간 : 31일\n4. 직접 납입을 통해서 1일 1회만 입금 가능하며, 그 외의 입금은 모두 제한됨",
+    "max_limit": null,
+    "disclosure_month": "202605",
+    "disclosed_at": "202605281024",
+    "collected_at": "2026-06-07T17:03:57.669298Z",
+    "source_url": "https://finlife.fss.or.kr/",
+    "options": [
+      {
+        "term_months": 1,
+        "base_rate": 0.5,
+        "max_rate": 6.0,
+        "interest_type": "단리",
+        "saving_type": "자유적립식"
+      }
+    ]
+  },
+  {
+    "id": "finlife:saving:0014674:01012000200000000004",
+    "source": "finlife",
+    "source_company_code": "0014674",
+    "source_product_code": "01012000200000000004",
+    "product_type": "saving",
+    "bank_name": "주식회사 케이뱅크",
+    "product_name": "궁금한 적금",
+    "join_way": [
+      "스마트폰"
+    ],
+    "join_member": "만 17세 이상 실명의 개인 및 개인사업자",
+    "special_conditions": "입금할 때마다 우대금리를 랜덤으로 제공하며, 입금 시 제공되는 우대금리를 누적으로 합산하여 만기 해지 시 적용 (최고 연 6.0%)",
+    "maturity_interest": "만기 후 \n- 1개월 이내: 만기시점 기본금리 X 50% \n- 1개월 초과 ~ 6개월 이내: 만기시점 기본금리 X 30%\n- 6개월 초과: 연 0.20%",
+    "notes": "가입금액: 0원\n가입기간: 31일\n(1인 최대 1계좌)\n적립방법 : 연결계좌를 통한 직접 입금만 가능하며, 입금은 신규일부터 만기일 전일까지 1일 1회 가능\n납입금액 : 1일(1회) 최소 100원, 최대 5만원",
+    "max_limit": null,
+    "disclosure_month": "202605",
+    "disclosed_at": "202605261025",
+    "collected_at": "2026-06-07T17:03:57.669298Z",
+    "source_url": "https://finlife.fss.or.kr/",
+    "options": [
+      {
+        "term_months": 1,
+        "base_rate": 0.7,
+        "max_rate": 6.7,
+        "interest_type": "단리",
+        "saving_type": "자유적립식"
+      }
+    ]
+  },
+  {
+    "id": "finlife:saving:0014674:01012000200000000005",
+    "source": "finlife",
+    "source_company_code": "0014674",
+    "source_product_code": "01012000200000000005",
+    "product_type": "saving",
+    "bank_name": "주식회사 케이뱅크",
+    "product_name": "데굴데굴 농장",
+    "join_way": [
+      "스마트폰"
+    ],
+    "join_member": "만 17세 이상 실명의 개인 및 개인사업자",
+    "special_conditions": "금리우대 코드를 입력하는 경우 우대금리 적용",
+    "maturity_interest": "만기 후\n- 1개월 이내: 만기시점 기본금리 X 50%\n- 1개월 초과 ~ 6개월 이내: 만기시점 기본금리 X 30%\n- 6개월 초과: 연 0.20%",
+    "notes": "가입금액: 1만원 이상 1천만원 이하\n가입기간: 6개월 , 1년\n(1인 최대1계좌)",
+    "max_limit": 10000000,
+    "disclosure_month": "202605",
+    "disclosed_at": "202605261029",
+    "collected_at": "2026-06-07T17:03:57.669298Z",
+    "source_url": "https://finlife.fss.or.kr/",
+    "options": [
+      {
+        "term_months": 6,
+        "base_rate": 2.5,
+        "max_rate": 2.5,
+        "interest_type": "단리",
+        "saving_type": "자유적립식"
+      },
+      {
+        "term_months": 12,
+        "base_rate": 2.5,
+        "max_rate": 2.5,
+        "interest_type": "단리",
+        "saving_type": "자유적립식"
+      }
+    ]
+  },
+  {
+    "id": "finlife:saving:0014674:01012000200000000006",
+    "source": "finlife",
+    "source_company_code": "0014674",
+    "source_product_code": "01012000200000000006",
+    "product_type": "saving",
+    "bank_name": "주식회사 케이뱅크",
+    "product_name": "마이키즈 적금",
+    "join_way": [
+      "스마트폰"
+    ],
+    "join_member": "만 17세 미만의 실명의 개인",
+    "special_conditions": "1. 입금실적에 따라 우대금리 적용\n2. 금리쿠폰을 입력시 우대금리 적용",
+    "maturity_interest": "만기 후\n- 1개월 이내: 만기시점 기본금리 X 50%\n- 1개월 초과 ~ 6개월 이내: 만기시점 기본금리 X 30%\n- 6개월 초과: 연 0.20%",
+    "notes": "가입금액: 0원 / 최대 납입금액 : 월 30만원 \n가입기간 : 1년,2년,3년,4년,5년\n ㅇ 4년 금리: 최저 연 3.3% ~ 최고 연 8.3%\n ㅇ 5년 금리: 최저 연 3.5% ~ 최고 연 8.5%",
+    "max_limit": 300000,
+    "disclosure_month": "202605",
+    "disclosed_at": "202605200959",
+    "collected_at": "2026-06-07T17:03:57.669298Z",
+    "source_url": "https://finlife.fss.or.kr/",
+    "options": [
+      {
+        "term_months": 12,
+        "base_rate": 3.0,
+        "max_rate": 8.0,
+        "interest_type": "단리",
+        "saving_type": "자유적립식"
+      },
+      {
+        "term_months": 24,
+        "base_rate": 3.0,
+        "max_rate": 8.0,
+        "interest_type": "단리",
+        "saving_type": "자유적립식"
+      },
+      {
+        "term_months": 36,
+        "base_rate": 3.3,
+        "max_rate": 8.3,
+        "interest_type": "단리",
+        "saving_type": "자유적립식"
+      }
+    ]
+  },
+  {
+    "id": "finlife:saving:0014674:01012000210000000000",
+    "source": "finlife",
+    "source_company_code": "0014674",
+    "source_product_code": "01012000210000000000",
+    "product_type": "saving",
+    "bank_name": "주식회사 케이뱅크",
+    "product_name": "주거래우대 자유적금",
+    "join_way": [
+      "스마트폰"
+    ],
+    "join_member": "만 17세 이상 실명의 개인 및 개인사업자",
+    "special_conditions": "급여이체 또는 통신비 자동이체, 체크카드 고객에게 우대금리 제공 (최고 연 0.6%)",
+    "maturity_interest": "만기 후 \n- 1개월 이내: 만기시점 기본금리 X 50% \n- 1개월 초과 ~ 6개월 이내: 만기시점 기본금리 X 30%\n- 6개월 초과: 연 0.20%",
+    "notes": "가입금액: 1천원 이상 300만원 이하\n가입기간: 6개월 ~ 36개월\n(1인 최대 3계좌)",
+    "max_limit": 3000000,
+    "disclosure_month": "202605",
+    "disclosed_at": "202605261029",
+    "collected_at": "2026-06-07T17:03:57.669298Z",
+    "source_url": "https://finlife.fss.or.kr/",
+    "options": [
+      {
+        "term_months": 6,
+        "base_rate": 3.0,
+        "max_rate": 3.6,
+        "interest_type": "단리",
+        "saving_type": "자유적립식"
+      },
+      {
+        "term_months": 12,
+        "base_rate": 3.4,
+        "max_rate": 4.0,
+        "interest_type": "단리",
+        "saving_type": "자유적립식"
+      },
+      {
+        "term_months": 24,
+        "base_rate": 3.3,
+        "max_rate": 3.9,
+        "interest_type": "단리",
+        "saving_type": "자유적립식"
+      },
+      {
+        "term_months": 36,
+        "base_rate": 3.3,
+        "max_rate": 3.9,
+        "interest_type": "단리",
+        "saving_type": "자유적립식"
+      }
+    ]
+  },
+  {
+    "id": "finlife:saving:0014674:01012000200000000003",
+    "source": "finlife",
+    "source_company_code": "0014674",
+    "source_product_code": "01012000200000000003",
+    "product_type": "saving",
+    "bank_name": "주식회사 케이뱅크",
+    "product_name": "코드K 자유적금",
+    "join_way": [
+      "스마트폰"
+    ],
+    "join_member": "만 17세 이상 실명의 개인 및 개인사업자",
+    "special_conditions": "금리우대 코드를 입력하는 경우 우대금리 적용",
+    "maturity_interest": "만기 후 \n- 1개월 이내: 만기시점 기본금리 X 50% \n- 1개월 초과 ~ 6개월 이내: 만기시점 기본금리 X 30%\n- 6개월 초과: 연 0.20%",
+    "notes": "가입금액: 1만원 이상 30만원 이하\n가입기간: 6개월, 1년, 2년, 3년 \n(1인 최대 15계좌)",
+    "max_limit": 300000,
+    "disclosure_month": "202605",
+    "disclosed_at": "202605261026",
+    "collected_at": "2026-06-07T17:03:57.669298Z",
+    "source_url": "https://finlife.fss.or.kr/",
+    "options": [
+      {
+        "term_months": 3,
+        "base_rate": 3.0,
+        "max_rate": 3.0,
+        "interest_type": "단리",
+        "saving_type": "자유적립식"
+      },
+      {
+        "term_months": 1,
+        "base_rate": 2.8,
+        "max_rate": 2.8,
+        "interest_type": "단리",
+        "saving_type": "자유적립식"
+      },
+      {
+        "term_months": 6,
+        "base_rate": 3.3,
+        "max_rate": 3.3,
+        "interest_type": "단리",
+        "saving_type": "자유적립식"
+      },
+      {
+        "term_months": 12,
+        "base_rate": 3.5,
+        "max_rate": 3.5,
+        "interest_type": "단리",
+        "saving_type": "자유적립식"
+      },
+      {
+        "term_months": 24,
+        "base_rate": 3.0,
+        "max_rate": 3.0,
+        "interest_type": "단리",
+        "saving_type": "자유적립식"
+      },
+      {
+        "term_months": 36,
+        "base_rate": 3.0,
+        "max_rate": 3.0,
+        "interest_type": "단리",
+        "saving_type": "자유적립식"
+      }
+    ]
+  },
+  {
+    "id": "finlife:saving:0013909:53",
+    "source": "finlife",
+    "source_company_code": "0013909",
+    "source_product_code": "53",
+    "product_type": "saving",
+    "bank_name": "주식회사 하나은행",
+    "product_name": "내맘적금",
+    "join_way": [
+      "영업점",
+      "인터넷",
+      "스마트폰",
+      "전화(텔레뱅킹)"
+    ],
+    "join_member": "실명의 개인\n또는 개인사업자(1인 다계좌 가능)",
+    "special_conditions": "하나은행 통장에서 계약기간의 1/2이상 월부금 자동이체실적 충족 시 연 0.50%",
+    "maturity_interest": "1개월 이내 : 지급당시 해당기간별 일반정기적금 기본금리 1/2\n1개월 초과 : 지급당시 해당기간별 일반정기적금 기본금리 1/4",
+    "notes": "1. 1인 다계좌 가능\n2. 가입금액\n   - 1천원 이상~1,000만원 이하(원단위)\n3. 적립한도\n    - 자유적립식 : 매월 1원 이상~1,000만원 이하(원단위)\n    - 정액적립식 : 매월 1천원 이상~1,000만원 이하(원단위)",
+    "max_limit": 10000000,
+    "disclosure_month": "202605",
+    "disclosed_at": "202605200957",
+    "collected_at": "2026-06-07T17:03:57.669298Z",
+    "source_url": "https://finlife.fss.or.kr/",
+    "options": [
+      {
+        "term_months": 24,
+        "base_rate": 1.6,
+        "max_rate": 2.1,
+        "interest_type": "단리",
+        "saving_type": "자유적립식"
+      },
+      {
+        "term_months": 12,
+        "base_rate": 1.5,
+        "max_rate": 2.0,
+        "interest_type": "단리",
+        "saving_type": "자유적립식"
+      },
+      {
+        "term_months": 6,
+        "base_rate": 1.5,
+        "max_rate": 2.0,
+        "interest_type": "단리",
+        "saving_type": "자유적립식"
+      },
+      {
+        "term_months": 36,
+        "base_rate": 1.7,
+        "max_rate": 2.2,
+        "interest_type": "단리",
+        "saving_type": "자유적립식"
+      },
+      {
+        "term_months": 12,
+        "base_rate": 2.1,
+        "max_rate": 2.6,
+        "interest_type": "단리",
+        "saving_type": "정액적립식"
+      },
+      {
+        "term_months": 24,
+        "base_rate": 2.2,
+        "max_rate": 2.7,
+        "interest_type": "단리",
+        "saving_type": "정액적립식"
+      },
+      {
+        "term_months": 36,
+        "base_rate": 2.3,
+        "max_rate": 2.8,
+        "interest_type": "단리",
+        "saving_type": "정액적립식"
+      },
+      {
+        "term_months": 6,
+        "base_rate": 2.0,
+        "max_rate": 2.5,
+        "interest_type": "단리",
+        "saving_type": "정액적립식"
+      }
+    ]
+  },
+  {
+    "id": "finlife:saving:0013909:52",
+    "source": "finlife",
+    "source_company_code": "0013909",
+    "source_product_code": "52",
+    "product_type": "saving",
+    "bank_name": "주식회사 하나은행",
+    "product_name": "주거래하나 월복리적금",
+    "join_way": [
+      "영업점",
+      "인터넷",
+      "스마트폰"
+    ],
+    "join_member": "실명의 개인\n또는 개인사업자",
+    "special_conditions": "최고 연1.0%\n- 주거래하나우대(연 0.5%) : 적금만기 전전월말기준 본인명의 당행입출금통장을 통해 계약기간 1/2이상 이체된 주거래실적 1종  - 주거래플러스우대(연 0.9%) : 주거래 하나우대와 동일요건의 거래실적 2종이상 경우 \n- 온라인.재예치우대 연 최대 0.1%",
+    "maturity_interest": "1개월 이내 : 지급당시 해당기간별 일반정기적금 기본금리 1/2\n1개월 초과 : 지급당시 해당기간별 일반정기적금 기본금리 1/4",
+    "notes": "1. 1인 1계좌만 가능\n(급여하나월복리적금,연금하나 월복리적금과 중복가입 불가)\n2. 가입금액 \n - 최저1만원~300만원이하\n3. 적립한도\n 분기당 1만원이상 300만원\n (자유적립식)",
+    "max_limit": 3000000,
+    "disclosure_month": "202605",
+    "disclosed_at": "202605261023",
+    "collected_at": "2026-06-07T17:03:57.669298Z",
+    "source_url": "https://finlife.fss.or.kr/",
+    "options": [
+      {
+        "term_months": 12,
+        "base_rate": 2.75,
+        "max_rate": 3.75,
+        "interest_type": "복리",
+        "saving_type": "자유적립식"
+      },
+      {
+        "term_months": 24,
+        "base_rate": 2.8,
+        "max_rate": 3.8,
+        "interest_type": "복리",
+        "saving_type": "자유적립식"
+      },
+      {
+        "term_months": 36,
+        "base_rate": 2.85,
+        "max_rate": 3.85,
+        "interest_type": "복리",
+        "saving_type": "자유적립식"
+      }
+    ]
+  },
+  {
+    "id": "finlife:saving:0017801:1001303001003",
+    "source": "finlife",
+    "source_company_code": "0017801",
+    "source_product_code": "1001303001003",
+    "product_type": "saving",
+    "bank_name": "토스뱅크 주식회사",
+    "product_name": "토스뱅크 굴비 적금",
+    "join_way": [
+      "스마트폰"
+    ],
+    "join_member": "· 토스뱅크 통장 또는 토스뱅크 서브 통장을 보유한 실명의 개인",
+    "special_conditions": "· 만기 해지 시 : 연 2.50% 제공",
+    "maturity_interest": "· 만기 후 1개월 이내 : 만기시점 기본금리 X 50% \n· 만기 후 1개월 초과 3개월 이내 : 만기시점 기본금리 X 20% \n· 만기 후 3개월 초과 : 연 0.10%",
+    "notes": "· 1인 1계좌 (단, 이벤트 등으로 토스뱅크가 복수의 계좌개설을 허용하는 경우 추가 개설 가능)\n· 가입금액 : 0원\n· 우대금리는 만기 해지하는 경우에만 제공됨",
+    "max_limit": 300000,
+    "disclosure_month": "202605",
+    "disclosed_at": "202605201148",
+    "collected_at": "2026-06-07T17:03:57.669298Z",
+    "source_url": "https://finlife.fss.or.kr/",
+    "options": [
+      {
+        "term_months": 6,
+        "base_rate": 1.8,
+        "max_rate": 4.3,
+        "interest_type": "단리",
+        "saving_type": "자유적립식"
+      }
+    ]
+  },
+  {
+    "id": "finlife:saving:0017801:1001303001005",
+    "source": "finlife",
+    "source_company_code": "0017801",
+    "source_product_code": "1001303001005",
+    "product_type": "saving",
+    "bank_name": "토스뱅크 주식회사",
+    "product_name": "토스뱅크 아이 적금",
+    "join_way": [
+      "스마트폰"
+    ],
+    "join_member": "· 토스뱅크 아이 통장을 보유한 15세 이하 실명의 개인",
+    "special_conditions": "· 적금 가입 시 설정되는 월 단위 자동이체를 모두 성공하는 경우 : 연 2.50% 제공",
+    "maturity_interest": "· 만기 후 1개월 이내 : 만기시점 기본금리 X 50% \n· 만기 후 1개월 초과 3개월 이내 : 만기시점 기본금리 X 20% \n· 만기 후 3개월 초과 : 연 0.10%",
+    "notes": "· 1인 1계좌 \n· 가입금액 : 0원\n· 우대금리는 만기 해지하는 경우에만 제공됨",
+    "max_limit": 200000,
+    "disclosure_month": "202605",
+    "disclosed_at": "202605201148",
+    "collected_at": "2026-06-07T17:03:57.669298Z",
+    "source_url": "https://finlife.fss.or.kr/",
+    "options": [
+      {
+        "term_months": 12,
+        "base_rate": 2.5,
+        "max_rate": 5.0,
+        "interest_type": "단리",
+        "saving_type": "자유적립식"
+      }
+    ]
+  },
+  {
+    "id": "finlife:saving:0017801:1001303001004",
+    "source": "finlife",
+    "source_company_code": "0017801",
+    "source_product_code": "1001303001004",
+    "product_type": "saving",
+    "bank_name": "토스뱅크 주식회사",
+    "product_name": "토스뱅크 자유 적금",
+    "join_way": [
+      "스마트폰"
+    ],
+    "join_member": "· 토스뱅크 통장 또는 토스뱅크 서브 통장을 보유한 실명의 개인",
+    "special_conditions": "· 적금 가입 시 설정되는 월 단위 자동이체를 모두 성공하는 경우 : 연 0.50% 제공",
+    "maturity_interest": "· 만기 후 1개월 이내 : 만기시점 기본금리 X 50% \n· 만기 후 1개월 초과 3개월 이내 : 만기시점 기본금리 X 20% \n· 만기 후 3개월 초과 : 연 0.10%",
+    "notes": "· 1인 1계좌 (단, 이벤트 등으로 토스뱅크가 복수의 계좌개설을 허용하는 경우 추가 개설 가능)\n· 가입금액 : 0원 이상 300만원 이하\n· 우대금리는 만기 해지하는 경우에만 제공됨",
+    "max_limit": 3000000,
+    "disclosure_month": "202605",
+    "disclosed_at": "202605201148",
+    "collected_at": "2026-06-07T17:03:57.669298Z",
+    "source_url": "https://finlife.fss.or.kr/",
+    "options": [
+      {
+        "term_months": 3,
+        "base_rate": 1.3,
+        "max_rate": 1.8,
+        "interest_type": "단리",
+        "saving_type": "자유적립식"
+      },
+      {
+        "term_months": 6,
+        "base_rate": 1.8,
+        "max_rate": 2.3,
+        "interest_type": "단리",
+        "saving_type": "자유적립식"
+      },
+      {
+        "term_months": 12,
+        "base_rate": 2.5,
+        "max_rate": 3.0,
+        "interest_type": "단리",
+        "saving_type": "자유적립식"
+      },
+      {
+        "term_months": 24,
+        "base_rate": 2.5,
+        "max_rate": 3.0,
+        "interest_type": "단리",
+        "saving_type": "자유적립식"
+      },
+      {
+        "term_months": 36,
+        "base_rate": 2.5,
+        "max_rate": 3.0,
+        "interest_type": "단리",
+        "saving_type": "자유적립식"
+      }
+    ]
+  },
+  {
+    "id": "finlife:saving:0017801:1001303001001",
+    "source": "finlife",
+    "source_company_code": "0017801",
+    "source_product_code": "1001303001001",
+    "product_type": "saving",
+    "bank_name": "토스뱅크 주식회사",
+    "product_name": "토스뱅크 키워봐요 적금",
+    "join_way": [
+      "스마트폰"
+    ],
+    "join_member": "· 토스뱅크 통장 또는 토스뱅크 서브 통장을 보유한 실명의 개인",
+    "special_conditions": "· 적금 가입 시 설정되는 주 단위 자동이체를 통하여 25회 이상 적립한 경우 : 연 2.00% 제공",
+    "maturity_interest": "· 만기 후 1개월 이내 : 만기시점 기본금리 X 50% \n· 만기 후 1개월 초과 3개월 이내 : 만기시점 기본금리 X 20% \n· 만기 후 3개월 초과 : 연 0.10%",
+    "notes": "· 1인 1계좌 (단, 이벤트 등으로 토스뱅크가 복수의 계좌개설을 허용하는 경우 추가 개설 가능)\n· 가입금액 : 0원\n· 우대금리는 우대조건을 달성하고 만기 해지하는 경우에만 제공됨",
+    "max_limit": 1000000,
+    "disclosure_month": "202605",
+    "disclosed_at": "202605201148",
+    "collected_at": "2026-06-07T17:03:57.669298Z",
+    "source_url": "https://finlife.fss.or.kr/",
+    "options": [
+      {
+        "term_months": 6,
+        "base_rate": 1.8,
+        "max_rate": 3.8,
+        "interest_type": "단리",
+        "saving_type": "자유적립식"
+      }
+    ]
+  },
+  {
+    "id": "finlife:saving:0010002:00266451",
+    "source": "finlife",
+    "source_company_code": "0010002",
+    "source_product_code": "00266451",
+    "product_type": "saving",
+    "bank_name": "한국스탠다드차타드은행",
+    "product_name": "퍼스트가계적금",
+    "join_way": [
+      "영업점",
+      "인터넷",
+      "스마트폰"
+    ],
+    "join_member": "개인(개인사업자 포함)",
+    "special_conditions": "없음",
+    "maturity_interest": "만기 후 1개월: 약정이율의 50%\n만기 후 1개월 초과 1년 이내: 약정이율의 30%\n만기 후 1년 초과: 약정이율의 10%",
+    "notes": "해당없음",
+    "max_limit": 10000000,
+    "disclosure_month": "202605",
+    "disclosed_at": "202605201441",
+    "collected_at": "2026-06-07T17:03:57.669298Z",
+    "source_url": "https://finlife.fss.or.kr/",
+    "options": [
+      {
+        "term_months": 6,
+        "base_rate": 2.3,
+        "max_rate": 2.3,
+        "interest_type": "단리",
+        "saving_type": "자유적립식"
+      },
+      {
+        "term_months": 12,
+        "base_rate": 2.55,
+        "max_rate": 2.55,
+        "interest_type": "단리",
+        "saving_type": "자유적립식"
+      },
+      {
+        "term_months": 36,
+        "base_rate": 2.65,
+        "max_rate": 2.65,
+        "interest_type": "단리",
+        "saving_type": "자유적립식"
+      },
+      {
+        "term_months": 24,
+        "base_rate": 2.6,
+        "max_rate": 2.6,
+        "interest_type": "단리",
+        "saving_type": "자유적립식"
+      },
+      {
+        "term_months": 36,
+        "base_rate": 2.8,
+        "max_rate": 2.8,
+        "interest_type": "단리",
+        "saving_type": "정액적립식"
+      },
+      {
+        "term_months": 24,
+        "base_rate": 2.75,
+        "max_rate": 2.75,
+        "interest_type": "단리",
+        "saving_type": "정액적립식"
+      },
+      {
+        "term_months": 12,
+        "base_rate": 2.7,
+        "max_rate": 2.7,
+        "interest_type": "단리",
+        "saving_type": "정액적립식"
+      },
+      {
+        "term_months": 6,
+        "base_rate": 2.4,
+        "max_rate": 2.4,
+        "interest_type": "단리",
+        "saving_type": "정액적립식"
+      }
+    ]
+  }
+]
