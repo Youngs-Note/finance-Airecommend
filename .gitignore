@@ -1,0 +1,34 @@
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.venv/
+venv/
+
+# IDE and OS
+.DS_Store
+Thumbs.db
+
+# Local presentation files
+*.ppt
+*.pptx
+
+# Local archives
+*.zip
+*.7z
+*.rar
+
+# Existing Next.js prototype local data and generated client
+front/dev.db
+front/prisma/data/
+front/generated/
+
+# Local development runtime data and generated secrets
+.local/

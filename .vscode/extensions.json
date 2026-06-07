@@ -1,0 +1,21 @@
+{
+  "recommendations": [
+    "charliermarsh.ruff",
+    "eamodio.gitlens",
+    "esbenp.prettier-vscode",
+    "github.vscode-pull-request-github",
+    "humao.rest-client",
+    "mikestead.dotenv",
+    "ms-azuretools.vscode-docker",
+    "ms-python.black-formatter",
+    "ms-python.python",
+    "ms-python.vscode-pylance",
+    "ms-vscode-remote.remote-containers",
+    "mtxr.sqltools",
+    "mtxr.sqltools-driver-mysql",
+    "redhat.vscode-yaml",
+    "ritwickdey.liveserver",
+    "usernamehw.errorlens",
+    "yzhang.markdown-all-in-one"
+  ]
+}
