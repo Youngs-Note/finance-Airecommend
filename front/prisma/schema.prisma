@@ -9,11 +9,11 @@ generator client {
 }
 
 datasource db {
-  provider = "postgresql"
+  provider = "mysql"
 }
 
 model User {
-  id        BigInt   @id @default(autoincrement())
+  id        BigInt   @id @default(autoincrement()) @db.UnsignedBigInt
   userId    String   @unique @map("user_id") @db.VarChar(100)
   email     String   @unique @db.VarChar(255)
   password  String   @map("password_hash") @db.VarChar(255)
