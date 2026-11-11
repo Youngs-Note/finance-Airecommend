@@ -11,7 +11,7 @@ sample_settings = Settings(
     app_data_mode="sample",
     openai_explanations_enabled=False,
     openai_api_key=None,
-    mysql_enabled=False,
+    database_enabled=False,
 )
 app.dependency_overrides[get_settings] = lambda: sample_settings
 app.dependency_overrides[get_product_service] = lambda: ProductService(sample_settings)

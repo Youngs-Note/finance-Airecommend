@@ -6,26 +6,27 @@
 
 - 프론트엔드: Vercel
 - 백엔드 API: Render
-- MySQL: Railway MySQL 또는 Aiven MySQL
-
-로컬 MySQL `127.0.0.1:3307`은 개발용이므로 운영 배포에서 사용할 수 없다.
+- DB: Neon (서버리스 PostgreSQL)
 
 ## 배포 순서
 
-1. 외부 MySQL을 먼저 만든다.
-2. `database/mysql/schema.sql`을 외부 MySQL에 적용한다.
+1. Neon 프로젝트를 먼저 만든다.
+2. `database/postgres/schema.sql`을 Neon SQL Editor에서 실행한다.
 3. Render에 백엔드 서비스를 만든다.
 4. Vercel에 `front/` 프론트엔드 서비스를 만든다.
 5. Vercel의 `FASTAPI_BASE_URL`을 Render 백엔드 URL로 설정한다.
 6. Vercel의 `NEXTAUTH_URL`을 Vercel 프론트 URL로 설정한다.
 
-## 외부 MySQL
+## Neon 데이터베이스
 
 필요한 테이블은 다음 파일에 있다.
 
 ```text
-database/mysql/schema.sql
+database/postgres/schema.sql
 ```
+
+Neon 콘솔의 **Connect** 화면에서 접속 문자열을 복사해 `DATABASE_URL`로 사용한다.
+Vercel(서버리스)에서는 `-pooler`가 붙은 pooled connection 주소를 권장한다.
 
 운영 DB에는 사용자 계정, 앱 메타데이터, AI 프롬프트 버전만 저장한다.
 금융감독원 상품 원문과 정규화 결과는 저장하지 않는다.
@@ -60,12 +61,8 @@ OPENAI_EXPLANATIONS_ENABLED=false
 OPENAI_API_KEY=
 OPENAI_MODEL=gpt-5.4-mini
 OPENAI_TIMEOUT_SECONDS=15
-MYSQL_ENABLED=true
-MYSQL_HOST=
-MYSQL_PORT=
-MYSQL_DATABASE=
-MYSQL_USER=
-MYSQL_PASSWORD=
+DATABASE_ENABLED=true
+DATABASE_URL=
 ```
 
 OpenAI 크레딧 설정 전에는 `OPENAI_EXPLANATIONS_ENABLED=false`를 유지한다.
@@ -96,14 +93,14 @@ NEXTAUTH_URL=
 FASTAPI_BASE_URL=
 ```
 
-`DATABASE_URL`은 외부 MySQL 접속 문자열이다.
+`DATABASE_URL`은 Neon 접속 문자열이다. 백엔드와 같은 값을 사용한다.
 `FASTAPI_BASE_URL`은 Render 백엔드 URL이다.
 `NEXTAUTH_URL`은 Vercel 프론트 URL이다.
 
 예시:
 
 ```text
-DATABASE_URL=mysql://USER:PASSWORD@HOST:PORT/DATABASE
+DATABASE_URL=postgresql://USER:PASSWORD@ep-xxxx-pooler.REGION.aws.neon.tech/finance_ai?sslmode=require&channel_binding=require
 NEXTAUTH_SECRET=long-random-secret
 NEXTAUTH_URL=https://your-front.vercel.app
 FASTAPI_BASE_URL=https://your-api.onrender.com
@@ -115,7 +112,7 @@ FASTAPI_BASE_URL=https://your-api.onrender.com
 
 ```text
 GET https://your-api.onrender.com/api/health
-GET https://your-api.onrender.com/api/health/mysql
+GET https://your-api.onrender.com/api/health/database
 GET https://your-api.onrender.com/api/products
 ```
 
@@ -137,5 +134,5 @@ https://your-front.vercel.app/login
 
 - `.env`, `front/.env.local`, API 키, DB 비밀번호는 Git에 올리지 않는다.
 - Vercel과 Render의 환경변수는 각 플랫폼 Secret/Environment Variables 화면에서 설정한다.
-- 운영 MySQL은 외부에서 접근 가능한 호스트와 포트가 필요하다.
+- Neon 무료 플랜은 유휴 시 compute가 일시 정지되므로 첫 DB 요청이 몇 초 늦을 수 있다.
 - 무료 플랜 백엔드는 cold start로 첫 응답이 늦을 수 있다.

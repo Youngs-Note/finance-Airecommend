@@ -8,7 +8,7 @@
 - FastAPI 기반 예금·적금 목록, 상세, 통계, 비교 요약, 규칙 기반 추천 API
 - 금융감독원 API 응답 정규화와 제1금융권 허용 목록 필터
 - Next.js 기반 로그인·회원가입, 상품 목록·상세·비교, 금리 차트, 추천 화면
-- MySQL 기반 사용자 계정, 애플리케이션 메타데이터, AI 프롬프트 버전 저장
+- Neon(PostgreSQL) 기반 사용자 계정, 애플리케이션 메타데이터, AI 프롬프트 버전 저장
 - OpenAI Responses API 기반 선택적 설명 보조와 실패 시 기본 설명 fallback
 - Ruff, Black, pytest, ESLint, Next.js build 검증
 
@@ -17,19 +17,16 @@
 
 ## 최초 환경 준비
 
-Node.js LTS와 MySQL Server가 없다면 설치합니다.
+Node.js LTS가 없다면 설치합니다. DB는 클라우드 Neon(PostgreSQL)을 사용하므로
+로컬 DB 서버 설치가 필요 없습니다.
 
 ```powershell
 winget install --id OpenJS.NodeJS.LTS --exact
-winget install --id Oracle.MySQL --exact
 ```
 
-프로젝트 전용 로컬 MySQL을 최초 1회 설정합니다. 데이터 파일은 Git에서 제외된
-`.local/` 아래에 생성되며 `127.0.0.1:3307`을 사용합니다.
-
-```powershell
-powershell.exe -NoProfile -ExecutionPolicy Bypass -File .\scripts\setup-local-mysql.ps1
-```
+Neon 프로젝트를 만들고 `database/postgres/schema.sql`을 적용한 뒤,
+접속 문자열을 루트 `.env`와 `front/.env.local`에 넣습니다.
+자세한 절차는 [DB 설정](./database/README.md)을 확인합니다.
 
 백엔드와 프론트엔드 의존성을 설치합니다.
 
@@ -48,7 +45,6 @@ PowerShell 실행 정책으로 `npm.ps1` 실행이 차단되면 위 예시처럼
 각 명령은 별도 터미널에서 실행합니다.
 
 ```powershell
-powershell.exe -NoProfile -ExecutionPolicy Bypass -File .\scripts\start-local-mysql.ps1
 .\.venv\Scripts\python.exe -m uvicorn backend.app.main:app --reload
 cd front
 & "C:\Program Files\nodejs\npm.cmd" run dev
@@ -117,6 +113,7 @@ cd front
 - [금융감독원 API 인증키 신청](./docs/setup-finlife-api.md)
 - [금융상품 데이터 출처와 저장 범위](./docs/data-sources.md)
 - [배포 안내](./docs/deployment.md)
+- [DB 설정 (Neon)](./database/README.md)
 - [기존 Next.js 프론트엔드 검토](./docs/reviews/2026-06-02-front-prototype-review.md)
 - [프론트엔드 교체 후 연동 검토](./docs/reviews/2026-06-03-front-replacement-review.md)
 - [npm 보안 점검](./docs/reviews/2026-06-02-npm-audit.md)
@@ -126,5 +123,6 @@ cd front
 - [졸업 프로젝트 계획서](./docs/plans/2026-06-02-graduation-project-plan.md)
 - [금융상품 데이터 수집 기능 계획](./docs/plans/2026-06-02-financial-product-data-collection.md)
 - [AI API 연동 기능 계획](./docs/plans/2026-06-02-ai-api-integration.md)
+- [Neon DB 이전 계획](./docs/plans/2026-11-11-neon-db-migration.md)
 
 졸업 프로젝트 PPT 파일은 GitHub 저장소에 포함하지 않습니다.
