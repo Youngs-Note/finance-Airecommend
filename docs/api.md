@@ -13,7 +13,7 @@ FastAPI 서버 실행 후 기본 주소는 `http://127.0.0.1:8000`이다.
 | 방식 | 경로 | 설명 |
 | --- | --- | --- |
 | `GET` | `/api/health` | 서버 상태와 데이터 모드 |
-| `GET` | `/api/health/database` | DB(Neon PostgreSQL) 연결 상태 |
+| `GET` | `/api/health/mysql` | MySQL 연결 상태 |
 | `GET` | `/api/products` | 상품 목록과 필터 |
 | `GET` | `/api/products/{product_id}` | 상품 상세 |
 | `POST` | `/api/products/compare` | 선택 상품 비교 |
