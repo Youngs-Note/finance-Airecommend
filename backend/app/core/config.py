@@ -30,12 +30,9 @@ class Settings(BaseSettings):
     openai_model: str = "gpt-5.4-mini"
     openai_timeout_seconds: float = Field(default=15.0, gt=0)
 
-    mysql_enabled: bool = False
-    mysql_host: str = "localhost"
-    mysql_port: int = Field(default=3306, ge=1, le=65535)
-    mysql_database: str = "finance_ai"
-    mysql_user: str = "finance_ai"
-    mysql_password: str | None = None
+    # Neon(PostgreSQL) 접속 문자열. 예: postgresql://USER:PASSWORD@HOST/DB?sslmode=require
+    database_enabled: bool = False
+    database_url: str | None = None
 
     @property
     def allowed_banks(self) -> set[str]:
