@@ -12,7 +12,7 @@
     "ms-python.vscode-pylance",
     "ms-vscode-remote.remote-containers",
     "mtxr.sqltools",
-    "mtxr.sqltools-driver-pg",
+    "mtxr.sqltools-driver-mysql",
     "redhat.vscode-yaml",
     "ritwickdey.liveserver",
     "usernamehw.errorlens",
