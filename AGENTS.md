@@ -69,7 +69,7 @@ Codex는 작업할 때 항상 다음 우선순위를 따른다.
 
 ### Database
 
-* MySQL
+* PostgreSQL (Neon)
 
 ### 개발 도구
 
